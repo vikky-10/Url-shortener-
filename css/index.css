@@ -1,0 +1,68 @@
+.header__image{
+ 
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+ }
+ 
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+/*******************************/
+/******* Testimonial CSS *******/
+/*******************************/
+.testimonial {
+  position: relative;
+  margin: 45px 0;
+  padding: 90px 0;
+  text-align: center;
+  background: linear-gradient(rgba(3, 15, 39, .9), rgba(3, 15, 39, .9)), url(../images/quotes.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial .container {
+  max-width: 95%;
+}
+
+.about-page .testimonial {
+  padding-bottom: 90px;
+}
+ 
+
+.testimonial .testimonial-slider h3 {
+  color: #fdbe33;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.testimonial .testimonial-slider h4 {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial .testimonial-slider p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}

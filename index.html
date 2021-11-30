@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="javascript/script.js"></script>
+    <script defer src="./javascript/general.js"></script>
+    <title>Shortly</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="site-name">Shortly</div>
+      <input type="checkbox" class="menu" name="menu" id="menu" />
+      <!-- <div class="menu-box"> -->
+      <label for="menu"></label>
+      <!-- </div> -->
+
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a id="ar" href="./Archive.html" class="btn--round btn">Archive</a>
+          </li>
+        </ul>
+
+        <ul class="nav__buttons">
+          <li class="nav__item">
+            <a id="sig" href="./Singin.html" class="nav-link">Login</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="./register.html" class="btn--round btn">Register</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">More than just shorter links</h1>
+        <p class="header__text">
+          Visit the Archive section and get detailed insights on how your links
+          are performing.
+        </p>
+
+        <a id="ar" href="./Archive.html" class="header__cta btn--round btn"
+          >Archive</a
+        >
+      </div>
+
+      <img
+        src="images/url.png"
+        alt="Girl working on laptop"
+        class="header__image"
+      />
+    </header>
+
+    <main class="main">
+      <section class="links" id="lk">
+        <form action="#" class="link__input-box" id="user-form">
+          <input
+            type="text"
+            name="link"
+            class="user__link"
+            id="user__link"
+            placeholder="Shorten a link here..."
+          />
+          <label class="user__link-label" for="user__link"
+            >Please add a link</label
+          >
+          <button id="short" type="submit" class="btn--rect btn submit__btn">
+            Shorten it!
+          </button>
+        </form>
+
+        <div class="link__output-boxes">
+          <!-- <div class="link__output-box data-box--1">
+          <p class="input__link">https://www.frontendmentor.io</p>
+          <p class="output__link">https://reLink/kbudcb</p>
+          <button class="btn--rect btn data-btn--1 copy-btn">Copy</button>
+        </div>
+
+        <div class="link__output-box data-box--2">
+          <p class="input__link">https://twitter.com/frontendmentor</p>
+          <p class="output__link">https://reLink/bc4299</p>
+          <button class="btn--rect btn data-btn--2 copy-btn">Copied!</button>
+        </div>
+
+        <div class="link__output-box data-box--3">
+          <p class="input__link">https://linkedin.com/company/frontend-mentor</p>
+          <p class="output__link">https://reLink/bxhiqh</p>
+          <button class="btn--rect btn data-btn--3 copy-btn">Copy</a>
+        </div> -->
+        </div>
+      </section>
+      <br />
+
+      <!-- quotes -->
+      <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="testimonial-slider-nav"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="testimonial-slider">
+                <div class="slider-item">
+                  <h3>Walt Disney</h3>
+
+                  <p>
+                    You can dream, create, design, and build the most wonderful
+                    place in the world. But it requires people to make the dream
+                    a reality.
+                  </p>
+                </div>
+                <div class="slider-item">
+                  <h3>Louis Kahn</h3>
+
+                  <p>
+                    A great building must begin with the immeasurable, must go
+                    through measurable means when it is being designed, and in
+                    the end must be unmeasured.
+                  </p>
+                </div>
+                <div class="slider-item">
+                  <h3>Stephen Gardiner</h3>
+
+                  <p>
+                    Good buildings come from good people, and all problems are
+                    solved by good design.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="boost">
+        <h2 class="heading-secondary">Boost your links today</h2>
+        <a href="#lk" class="btn--round btn">Get Started</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="site__name">Shortly</div>
+
+      <div class="site__features">
+        <p class="headers">Features</p>
+        <ul class="features__list">
+          <li class="features__item">
+            <a href="" class="features__link">Link Shortening</a>
+          </li>
+          <li class="features__item">
+            <a href="" class="features__link">Branded Links</a>
+          </li>
+          <li class="features__item">
+            <a href="" class="features__link">Analytics</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="site__resources">
+        <p class="headers">Resources</p>
+        <ul class="resources__list">
+          <li class="resources__item">
+            <a href="" class="resources__link">Blog</a>
+          </li>
+          <li class="resources__item">
+            <a href="" class="resources__link">Developers</a>
+          </li>
+          <li class="resources__item">
+            <a href="" class="resources__link">Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="site__pages">
+        <p class="headers">Company</p>
+        <ul class="pages__list">
+          <li class="pages__item">
+            <a href="#" class="pages__link">About</a>
+          </li>
+          <li class="pages__item">
+            <a href="#" class="pages__link">Our Team</a>
+          </li>
+          <li class="pages__item">
+            <a href="#" class="pages__link">Carers</a>
+          </li>
+          <li class="pages__item">
+            <a href="#" class="pages__link">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="site__socials">
+        <a href="https://github.com/vikky-10">
+          <i
+            style="margin-left: 10px; padding: 10px"
+            class="fab fa-github fa-lg"
+          ></i
+        ></a>
+        <a href="https://www.instagram.com/_vikkysingh/">
+          <i
+            style="margin-left: 10px; padding: 10px"
+            class="fab fa-instagram fa-lg"
+          ></i
+        ></a>
+        <a href="https://www.linkedin.com/in/vikky-10/"
+          ><i
+            style="margin-left: 10px; padding: 10px"
+            class="fab fa-linkedin-in fa-lg"
+          ></i
+        ></a>
+      </div>
+
+      <div class="attribution">
+        code by
+        <a href="https://github.com/vikky-10" target="_blank">Vikky Singh</a>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    <!-- <script src="./javascript/firebase.js"></script> -->
+
+    <script>
+      var usr = localStorage.getItem("user");
+      var lg = document.getElementById("sig");
+      if (usr == "secrate") {
+        lg.innerHTML = "Logout";
+        $("#sig").click(function () {
+          localStorage.setItem("user", "logout");
+          $(location).attr("href", "Singin.html");
+        });
+      }
+    </script>
+  </body>
+</html>
