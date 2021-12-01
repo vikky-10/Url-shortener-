@@ -21,17 +21,18 @@
         <li><a href="./index.html">Home</a></li>
         <li><a id="logout" href="./singin.html">Logout</a></li>
 
+        <li><a href="./register.html" class="btnS">Register</a></li>
         <!-- <button id="logout" class="btn btn-primary">Logout</button> -->
       </ul>
     </nav>
-
+    <h1 class="main">Archive</h1>
     <!-- search -->
     <div id="searchWrapper">
       <input
         type="text"
         name="searchBar"
         id="searchBar"
-        placeholder="search for a character"
+        placeholder="search for a links"
       />
     </div>
 
@@ -56,7 +57,7 @@
     <script>
       var usr = localStorage.getItem("user");
       if (usr !== "secrate") {
-        $(location).attr("href", "Singin.html");
+        $(location).attr("href", "Signin.html");
       }
     </script>
   </body>

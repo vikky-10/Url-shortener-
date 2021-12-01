@@ -57,12 +57,7 @@ $("#cls3").click(function () {
 // logout ------------------------
 var isuser = localStorage.getItem("user");
 
-// if (isuser) {
-// } else {
-//   $(location).attr("href", "Singin.html");
-// }
-
 $("#logout").click(function () {
   localStorage.setItem("user", "logout");
-  $(location).attr("href", "Singin.html");
+  $(location).attr("href", "Signin.html");
 });
