@@ -40,6 +40,7 @@ $("#login").click(function (e) {
 
 $("#cls").click(function () {
   $(".modal").modal("hide");
+  $(location).attr("href", "Signin.html");
 });
 
 $("#cls1").click(function () {
