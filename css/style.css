@@ -84,14 +84,15 @@ button {
 
 /* *************************************************** */
 
-
+/* 🧭🧭🧭 Nav Start */
 
 
 .navbar {
   display: flex;
   align-items: center;
-  margin: 4rem 12rem;
+  margin: 2rem 10rem;
   position: relative;
+  
 }
 .navbar .menu {
   opacity: 0;
@@ -135,6 +136,8 @@ button {
     align-items: stretch;
   }
 }
+
+
 .navbar .site-name {
   font-weight: 700;
   font-size: 5rem;
@@ -154,6 +157,13 @@ button {
   color: #bfbfbf;
   width: 100%;
 }
+
+
+
+
+/* for small screen devices */
+
+
 @media only screen and (max-width: 37.5em) {
   .navbar .nav {
     display: flex;
@@ -213,7 +223,7 @@ button {
 .navbar .nav__buttons .nav-link:visited,
 .navbar .nav__buttons .nav-link:link {
   text-decoration: none;
-  color: currentColor;
+  color: #BFBFBF;
 }
 .navbar .nav__items .nav-link:visited:hover,
 .navbar .nav__items .nav-link:link:hover,
@@ -226,6 +236,11 @@ button {
   opacity: 1;
 }
 
+
+/* Nav end ************************** */
+
+/* Header Start ********************* */
+
 .header {
   display: grid;
   margin-left: 12rem;
@@ -235,6 +250,7 @@ button {
   margin-top: 1vh;
   overflow: hidden;
 }
+
 @media only screen and (max-width: 37.5em) {
   .header {
     grid-template-columns: 1fr;
@@ -276,17 +292,20 @@ button {
   margin: 3rem 0 0 0;
 }
 .header__image {
-  padding-left: 10rem;
-  width: 110%;
+  /* padding-left: 10rem; */
+  width: 100%;
 }
 @media only screen and (max-width: 37.5em) {
   .header__image {
     grid-row: 1/2;
     padding-left: 0;
     height: auto;
-    width: 140%;
+    width: 100%;
   }
 }
+
+
+/* header end ************************ */
 
 .links {
   margin: 0 20rem;
