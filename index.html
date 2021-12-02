@@ -26,16 +26,19 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="./css/index.css" />
     <script defer src="javascript/script.js"></script>
-    <script defer src="./javascript/general.js"></script>
     <title>Shortly</title>
   </head>
   <body>
     <div class="navbar">
       <div class="site-name">Shortly</div>
+
+      <!-- for Hamburger menu -->
       <input type="checkbox" class="menu" name="menu" id="menu" />
       <!-- <div class="menu-box"> -->
       <label for="menu"></label>
       <!-- </div> -->
+
+      <!-- Navigation  Start -->
 
       <nav class="nav">
         <ul class="nav__items">
@@ -55,6 +58,8 @@
         </ul>
       </nav>
     </div>
+
+    <!-- Navigation end -->
 
     <header class="header">
       <div class="header__text-box">
@@ -93,68 +98,40 @@
             Shorten it!
           </button>
         </form>
-
-        <div class="link__output-boxes">
-          <!-- <div class="link__output-box data-box--1">
-          <p class="input__link">https://www.frontendmentor.io</p>
-          <p class="output__link">https://reLink/kbudcb</p>
-          <button class="btn--rect btn data-btn--1 copy-btn">Copy</button>
-        </div>
-
-        <div class="link__output-box data-box--2">
-          <p class="input__link">https://twitter.com/frontendmentor</p>
-          <p class="output__link">https://reLink/bc4299</p>
-          <button class="btn--rect btn data-btn--2 copy-btn">Copied!</button>
-        </div>
-
-        <div class="link__output-box data-box--3">
-          <p class="input__link">https://linkedin.com/company/frontend-mentor</p>
-          <p class="output__link">https://reLink/bxhiqh</p>
-          <button class="btn--rect btn data-btn--3 copy-btn">Copy</a>
-        </div> -->
-        </div>
       </section>
       <br />
 
-      <!-- quotes -->
-      <div class="testimonial wow fadeIn" data-wow-delay="0.1s">
+      <!-- 👋👋👋   quotes start  -->
+
+      <div class="testimonial">
         <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="testimonial-slider-nav"></div>
+          <div class="testimonial-slider">
+            <div class="slider-item">
+              <h3>Walt Disney</h3>
+              <p>
+                You can dream, create, design, and build the most wonderful
+                place in the world. But it requires people to make the dream a
+                reality.
+              </p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <div class="testimonial-slider">
-                <div class="slider-item">
-                  <h3>Walt Disney</h3>
-
-                  <p>
-                    You can dream, create, design, and build the most wonderful
-                    place in the world. But it requires people to make the dream
-                    a reality.
-                  </p>
-                </div>
-                <div class="slider-item">
-                  <h3>Antonie De-Saint Exupery</h3>
-
-                  <p>
-                    A designer knows he has achieved perfection not when there
-                    is nothing left to add, but when there is nothing left to
-                    take away
-                  </p>
-                </div>
-                <div class="slider-item">
-                  <h3>Pixxelznetr</h3>
-
-                  <p>If You Think Math is Hard Try Web Design.</p>
-                </div>
-              </div>
+            <div class="slider-item">
+              <h3>Antonie De-Saint Exupery</h3>
+              <p>
+                A designer knows he has achieved perfection not when there is
+                nothing left to add, but when there is nothing left to take away
+              </p>
+            </div>
+            <div class="slider-item">
+              <h3>Pixxelznetr</h3>
+              <p>If You Think Math is Hard Try Web Design.</p>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- quotes end 👋👋👋 -->
+
+      <!-- 🚀🚀🚀  Boost Start -->
 
       <section class="boost">
         <h2 class="heading-secondary">Boost your links today</h2>
@@ -162,8 +139,15 @@
       </section>
     </main>
 
+    <!-- Boost End 🚀🚀🚀 -->
+
+    <!-- 🐾🐾🐾  Footer Start-->
+
     <footer class="footer">
-      <div class="site__name">Shortly</div>
+      <div class="site__name">
+        Shortly
+        <p class="years">Copyright &copy; <span class="year">2027</span></p>
+      </div>
 
       <div class="site__features">
         <p class="headers">Features</p>
@@ -213,6 +197,8 @@
         </ul>
       </div>
 
+      <!-- 📴📴📴 Social media  Start-->
+
       <div class="site__socials">
         <a href="https://github.com/vikky-10">
           <i
@@ -234,17 +220,22 @@
         ></a>
       </div>
 
+      <!-- Socail media end 📴📴📴-->
+
       <div class="attribution">
         code by
         <a href="https://github.com/vikky-10" target="_blank">Vikky Singh</a>
       </div>
     </footer>
+
+    <!-- Footer End 🐾🐾🐾 -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
     <!-- <script src="./javascript/firebase.js"></script> -->
-
+    <script src="./javascript/general.js"></script>
     <script>
       var usr = localStorage.getItem("user");
       var lg = document.getElementById("sig");
