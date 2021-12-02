@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
     <title>🔵 Singin</title>
   </head>
   <body>
@@ -27,88 +28,108 @@
         border-top: 0px;
       }
     </style>
+    <div class="upper">
+      <div class="area">
+        <nav>
+          <h1 class="logo"><a href="/">Shortly</a></h1>
+          <ul class="link">
+            <li><a href="./index.html">Home</a></li>
 
-    <nav>
-      <h1 class="logo"><a href="/">Shortly</a></h1>
-      <ul class="link">
-        <li><a href="./index.html">Home</a></li>
+            <li>
+              <a id="sig" href="./Signin.html">Singin</a>
+            </li>
 
-        <li>
-          <a id="sig" href="./Signin.html">Singin</a>
-        </li>
+            <li><a href="./register.html" class="btnS">Register</a></li>
+          </ul>
+        </nav>
 
-        <li><a href="./register.html" class="btnS">Register</a></li>
-      </ul>
-    </nav>
-
-    <div class="text-center">
-      <form style="max-width: 300px; margin: auto">
-        <img
-          class="mt-4 mb-4"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
-          alt="logo"
-          height="72"
-        />
-        <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
-        <label for="regno" class="visually-hidden">Registration number</label>
-        <input
-          id="Regno"
-          type="number"
-          class="form-control mb-3"
-          placeholder="Registration Number"
-          autofocus
-          required
-        />
-        <label for="pin" class="visually-hidden">Password</label>
-        <input
-          type="password"
-          id="Pin"
-          class="form-control"
-          placeholder="Password"
-          autofocus
-          required
-        />
-        <div class="mt-3 d-grid gap-2">
-          <button id="login" class="btn btn-lg btn-primary btn-block">
-            Sign in
-          </button>
-        </div>
-      </form>
-
-      <!-- modal     -->
-      <div class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Error💀</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-dismiss="modal"
-                aria-label="Close"
-                id="cls2"
-              >
-                <span aria-hidden="true">&times;</span>
+        <div class="text-center">
+          <form style="max-width: 300px; margin: auto">
+            <img
+              class="mt-4 mb-4"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+              alt="logo"
+              height="72"
+            />
+            <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+            <label for="regno" class="visually-hidden"
+              >Registration number</label
+            >
+            <input
+              id="Regno"
+              type="number"
+              class="form-control mb-3"
+              placeholder="Registration Number"
+              autofocus
+              required
+            />
+            <label for="pin" class="visually-hidden">Password</label>
+            <input
+              type="password"
+              id="Pin"
+              class="form-control"
+              placeholder="Password"
+              autofocus
+              required
+            />
+            <div class="mt-3 d-grid gap-2">
+              <button id="login" class="btn btn-lg btn-primary btn-block">
+                Sign in
               </button>
             </div>
-            <div class="modal-body">
-              <p>Please enter correct Registration Number and Pin. 📍</p>
-            </div>
-            <div class="modal-footer">
-              <button
-                id="cls3"
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
+          </form>
+
+          <!-- modal     -->
+          <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Error💀</h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                    id="cls2"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Please enter correct Registration Number and Pin. 📍</p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    id="cls3"
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
+    <!-- for background animation -->
 
+    <!-- animation end -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
