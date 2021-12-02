@@ -4,7 +4,7 @@
 .area {
   width: 100%;
   height: 100vh;
-z-index: -1000000000;
+z-index: -1;
 }
 
 .circles {
@@ -14,7 +14,7 @@ z-index: -1000000000;
   height: 100%;
   overflow: hidden;
   bottom: 0;
-  z-index: -10000;
+  z-index: -10;
 }
 
 .circles li {
