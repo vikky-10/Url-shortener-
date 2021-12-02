@@ -294,6 +294,7 @@ button {
 .header__image {
   /* padding-left: 10rem; */
   width: 100%;
+  
 }
 @media only screen and (max-width: 37.5em) {
   .header__image {
@@ -306,6 +307,9 @@ button {
 
 
 /* header end ************************ */
+
+
+/* Link Section Start  🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀🌀*/
 
 .links {
   margin: 0 20rem;
@@ -451,6 +455,12 @@ button {
   }
 }
 
+/* End  *******************/
+
+
+
+
+
 /* 🚀🚀🚀 Boost Start */
 
 .boost {
@@ -471,10 +481,7 @@ button {
   margin-bottom: 2.5rem;
 }
 
-*  Boost End */
-
-
-
+  /* Boost End  */
 
 
 

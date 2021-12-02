@@ -9,6 +9,7 @@ $("#bt").click(function (e) {
   $("#regno").val("");
   $("#pin").val("");
   $(".modal").modal("show");
+  $(location).attr("href", "Signin.html");
 });
 
 // $("#cls").click(function (e) {
