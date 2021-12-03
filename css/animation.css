@@ -24,7 +24,7 @@
   width: 20px;
   height: 20px;
   background: rgba(255, 255, 255, 0.2);
-  animation: animate 25s linear infinite;
+  animation: animate 18s linear infinite;
   bottom: -150px;
 }
 
@@ -127,3 +127,27 @@
     border-radius: 50%;
   }
 }
+
+/* Card Start */
+
+.Containerr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  margin-top: -11rem;
+}
+.Wrap-Login {
+  width: 400px;
+  overflow: hidden;
+  border-radius: 30px;
+  /* background: #e6e6e6; */
+  box-shadow: 10px 10px 22px rgba(0, 0, 0, 0.2),
+    -10px -10px 22px rgba(255, 255, 255, 0.75);
+  padding: 30px;
+}
+
+/* card End */
