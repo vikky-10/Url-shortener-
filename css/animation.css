@@ -131,6 +131,7 @@
 /* Card Start */
 
 .Containerr {
+  /* background:red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -139,6 +140,8 @@
   min-height: 100vh;
   flex-wrap: wrap;
   margin-top: -11rem;
+   
+ 
 }
 .Wrap-Login {
   padding:auto;
@@ -151,4 +154,9 @@
   padding: 30px;
 }
 
+
+ 
+
+
 /* card End */
+
