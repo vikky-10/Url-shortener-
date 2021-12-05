@@ -13,9 +13,10 @@ const firebaseConfig = {
 
 //Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+// Reference of firestore
 var firestore = firebase.firestore();
 
-//Variable to access database collection
+//Variable to access collection
 const db = firestore.collection("fomData");
 
 //Variables
@@ -29,7 +30,9 @@ class URLShortener {
   #flag = 0;
 
   constructor() {
+    // console.log(this);//URLShortener
     submitButton.addEventListener("click", this.getShortenUrl.bind(this));
+    // console.log(this.getShortenUrl.bind(this));
     containerOutput.addEventListener("click", this.copyText.bind(this));
   }
 
