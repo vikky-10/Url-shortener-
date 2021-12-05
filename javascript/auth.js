@@ -56,6 +56,16 @@ $("#cls3").click(function () {
   $(".modal").modal("hide");
 });
 
+$("#cls6").click(function () {
+  $(".modal").modal("hide");
+  $(location).attr("href", "Signin.html");
+});
+
+$("#cls7").click(function () {
+  $(".modal").modal("hide");
+  $(location).attr("href", "Signin.html");
+});
+
 // logout ------------------------
 var isuser = localStorage.getItem("user");
 
