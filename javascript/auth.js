@@ -30,7 +30,7 @@ $("#login").click(function (e) {
     // Window.location.replace("Archive.html");
     localStorage.setItem("user", "secrate");
 
-    $(location).attr("href", "Archive.html");
+    $(location).attr("href", "index.html");
   } else {
     $(".modal").modal("show");
   }
