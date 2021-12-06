@@ -60,7 +60,7 @@ a {
   padding: 1rem 3rem;
   font-family: inherit;
   color: white;
-  background-color: #2acfcf;
+  background-color: #2acfcf;   /*btn color*/
   display: inline-block;
   transition: transform 0.2s;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);

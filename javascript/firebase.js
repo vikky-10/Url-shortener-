@@ -38,7 +38,16 @@ function getAllData() {
     AddAllItemTheTable(arr);
   });
 }
+function AddAllItemTheTable(doclist) {
+  stdNo = 0;
+  tbody.innerHTML = " ";
+  doclist.forEach((element) => {
+    AddItemtoTable(element.input, element.short, element.id);
+    // console.log(element.createdAt.nanoseconds);
+  });
+}
 
+window.onload = getAllData;
 var stdNo = 0;
 var tbody = document.getElementById("tbody1");
 function AddItemtoTable(input, short, id) {
@@ -68,17 +77,6 @@ function AddItemtoTable(input, short, id) {
     db.doc(id).delete();
   });
 }
-
-function AddAllItemTheTable(doclist) {
-  stdNo = 0;
-  tbody.innerHTML = " ";
-  doclist.forEach((element) => {
-    AddItemtoTable(element.input, element.short, element.id);
-    // console.log(element.createdAt.nanoseconds);
-  });
-}
-
-window.onload = getAllData;
 
 // search functionality
 const searchBar = document.getElementById("searchBar");

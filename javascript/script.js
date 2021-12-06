@@ -65,6 +65,7 @@ class URLShortener {
     request
       .then((response) => response.json())
       .then((data) => this.renderOutput(inputURL, data.result.full_short_link));
+    // console.log(request);
   }
 
   renderOutput(inputLink, shortenUrl) {
